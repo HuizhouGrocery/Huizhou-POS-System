@@ -14,12 +14,17 @@ Next thing is to set up your environment(Windows-oriented).
 ```shell
 pip install ttkbootstrap
 ```
+<br/>
+
+Win32print is not a very popular library, which means you may get errors. you could run both commands on your environment
 ```shell
 pip install win32printing
 ```
+or
 ```shell
 pip install pywin32
 ```
+
 After you can run python code on your terminal, you need to run this code below.
 ```shell
 pyinstaller --onefile --name huizhou-pos -i logo.jpg --windowed huizhou_pos.py
@@ -30,3 +35,35 @@ pyinstaller --onefile --name huizhou-pos -i logo.jpg --windowed huizhou_pos.py
 </p>
 
 You will get an exe file in your working directory.
+
+<p align="center">
+  <img src="screenshot/02.JPG" width="110" title="hover text">
+</p>
+
+You could open this desktop software program to test it. We just attach some screenshots.
+
+<p align="center">
+  <img src="screenshot/03.JPG" width="510" title="hover text">
+</p>
+
+<p align="center">
+  <img src="screenshot/04.JPG" width="510" title="hover text">
+</p>
+
+
+<p align="center">
+  <img src="screenshot/05.JPG" width="510" title="hover text">
+</p>
+
+
+<p align="center">
+  <img src="screenshot/06.JPG" width="510" title="hover text">
+</p>
+
+<p align="center">
+  <img src="screenshot/07.JPG" width="510" title="hover text">
+</p>
+
+<p align="center">
+  <img src="screenshot/08.JPG" width="810" title="hover text">
+</p>

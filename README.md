@@ -40,7 +40,7 @@ You will get an exe file in your working directory.
   <img src="screenshot/02.JPG" width="110" title="hover text">
 </p>
 
-You could open this desktop software program with easy UI to test it. We just attached some screenshots.
+You could open this desktop software program with easy UI to test it. We just attached some screenshots. You only need to input product ID and product quantity to calculate price.
 
 <p align="center">
   <img src="screenshot/03.JPG" width="510" title="hover text">
@@ -64,6 +64,7 @@ You could open this desktop software program with easy UI to test it. We just at
   <img src="screenshot/07.JPG" width="510" title="hover text">
 </p>
 
+There is our receipt template, and you change languages and formats.
 <p align="center">
   <img src="screenshot/09.jpg" width="510">
 </p>

@@ -74,7 +74,7 @@ Once you have printed your receipt, you could check your Sqlite database.
   <img src="screenshot/08.jpg" width="501" >
 </p>
 
-This Python script only has 300 lines of code, and this lightweight exe program only has 60 MB size. You may face many challenges when you start to set up a printer. You just need to buy one cheap printer and 58-mm paper. Your printer needs to have a Windows OS driver and a USB interface with your desktop (laptop). You need to let your printer become the default printer in your Windows environment. After that, you may find that this program runs smoothly.
+This Python script only has 300 lines of code, and this lightweight exe program only has 60 MB size. You may face many challenges when you start to set up a printer. You just need to buy one cheap printer and 58 mm paper. Your printer needs to have a Windows OS driver and a USB interface with your desktop (laptop). You need to let your printer become the default printer in your Windows environment. After that, you may find that this program runs smoothly.
 
 We decide to choose the TXT format for our receipt, do not forget to change your default paper (font) size of the TXT format on your Windows environment. Or you may find that our program can not change this. We do not have this function.
 

@@ -220,7 +220,7 @@ class DatabaseApp:
           order_number = str(uid.int)
        
           detail = ''.join(map(str, self.list_ofitem))
-          time = currentDateTime
+          time = f"{currentDateTime}"   # if we insert time format to the sqlite database directly, we may face errors or warnings. Just change it to string format.
 
           if final_price != 0:
             self.cursor.execute("INSERT INTO testv7_order (order_number, final_price,detail,time) VALUES (?,?,?,?)", (order_number,final_price,detail,time))

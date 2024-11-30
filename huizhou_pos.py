@@ -11,9 +11,8 @@ import uuid
 
 import sqlite3
 
-import datetime
+from time import strftime
 
-currentDateTime = datetime.datetime.now()
 uid = uuid.uuid1() 
 
 products = {
@@ -220,7 +219,9 @@ class DatabaseApp:
           order_number = str(uid.int)
        
           detail = ''.join(map(str, self.list_ofitem))
-          time = f"{currentDateTime}"  # If we insert time format to the sqlite database directly, we may face errors or warnings. Just change it to string format.
+        
+        # If we insert time format to the sqlite database directly, we may face errors or warnings. Just change it to string format. strftime() function will use latest system time even your app is running.
+          time = strftime("%Y-%m-%d %H:%M:%S %p %a")  
 
           if final_price != 0:
             self.cursor.execute("INSERT INTO testv7_order (order_number, final_price,detail,time) VALUES (?,?,?,?)", (order_number,final_price,detail,time))
